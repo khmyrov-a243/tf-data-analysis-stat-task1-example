@@ -9,4 +9,4 @@ def solution(x: np.array) -> float:
     mu = np.mean(np.log(x)) # оценка параметра μ
     sigma2 = np.var(np.log(x)) # оценка параметра σ^2
     a = np.exp(mu + sigma2/2) - 419 # оценка коэффициента a
-return a
+    return a
